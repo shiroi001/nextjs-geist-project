@@ -1,0 +1,30 @@
+{
+  "lockers": [
+    {
+      "id": "locker1",
+      "status": "available",
+      "currentUser": null,
+      "rentalStart": null,
+      "rentalEnd": null,
+      "accessCode": "1234"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "rentedLockerId": null
+    }
+  ],
+  "rentals": [
+    {
+      "rentalId": "rental1",
+      "lockerId": "locker1",
+      "userId": "user1",
+      "startTime": "2025-05-19T08:00:00Z",
+      "endTime": "2025-05-19T10:00:00Z",
+      "status": "active"
+    }
+  ]
+}
